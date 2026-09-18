@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Build and test output
+dist/
+build/
+coverage/
+.vite/
+*.tsbuildinfo
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+
+# Logs and debug output
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local databases and Supabase CLI state
+*.sqlite
+*.sqlite3
+.supabase/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor metadata
+.idea/
+.vscode/
